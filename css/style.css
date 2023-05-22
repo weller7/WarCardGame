@@ -1,0 +1,75 @@
+/******************************************
+/* CSS
+/*******************************************/
+
+/* Box Model Hack */
+*{
+  box-sizing: border-box;
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+img{
+  display: block;
+  margin: 0 auto;
+}
+
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
+h1{
+  font-family:'Public Sans', sans-serif;
+  font-size: 3rem;
+  text-align: center;
+  padding-top: 13px;
+  
+}
+section{
+  background-color: #FE480F;
+  width: auto;
+  height: 100px;
+  margin-top: -36px;
+  margin-bottom: -9px;
+}
+
+h2, h3{
+  font-family: "Poppins", sans-serif;
+  font-size: 1.6rem;
+  
+}
+
+.container{
+  width: 15%;
+  margin: auto;
+  text-align: center;
+
+}
+
+#box{
+  border: solid 2px;
+  margin-top: 20px;
+  margin-bottom: 15px;
+
+}
+
+hr{
+  border: solid 1px;
+
+}
+
+button{
+  background-color: #FE480F;
+  font-family: "Poppins", sans-serif;
+  font-size: 1.2rem;
+}
+button:hover{
+  background-color: #cf3f14;
+
+}
+
+div{
+  text-align: center;
+  padding: 13px;
+}
