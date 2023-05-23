@@ -29,9 +29,10 @@ h1{
 section{
   background-color: #FE480F;
   width: auto;
-  height: 100px;
+  min-height: 100px;
   margin-top: -36px;
   margin-bottom: -9px;
+  border-bottom: solid 2px;
 }
 
 h2, h3{
@@ -41,28 +42,37 @@ h2, h3{
 }
 
 .container{
-  width: 15%;
+  width: 26%;
   margin: auto;
   text-align: center;
 
+}@media screen and (min-width: 850px) {
+  .container{
+    max-width: 26%;
+  }
 }
+
 
 #box{
-  border: solid 2px;
   margin-top: 20px;
   margin-bottom: 15px;
+  border: solid 2px;
+
 
 }
-
-hr{
-  border: solid 1px;
-
+@media screen and (max-width: 399px) {
+  #box{
+    border: none;
+  }
 }
+
 
 button{
   background-color: #FE480F;
+  border-color: black;
   font-family: "Poppins", sans-serif;
   font-size: 1.2rem;
+  
 }
 button:hover{
   background-color: #cf3f14;
